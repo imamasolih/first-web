@@ -326,6 +326,19 @@ main {
   filter: drop-shadow(0 8px 14px rgba(0, 0, 0, 0.16));
 }
 
+.curvy-badge {
+  --fill: #ee4928;
+  /* close to the image color */
+  width: min(900px, 90vw);
+  aspect-ratio: 1064 / 344;
+  /* keeps the shape proportions */
+  background: var(--fill);
+
+  /* Safari needs the -webkit- prefix */
+  -webkit-clip-path: path('M 0.0 171.5 L 13.0 164.5 L 31.0 151.5 L 47.5 136.0 L 58.5 123.0 L 67.5 112.0 L 72.5 101.0 L 86.5 71.0 L 97.5 51.0 L 106.5 38.0 L 110.5 32.0 L 135.0 12.5 L 149.0 6.5 L 164.0 1.5 L 174.0 1.5 L 175.0 0.5 L 252.5 0.0 L 828.5 0.0 L 895.0 0.5 L 896.0 1.5 L 902.0 1.5 L 921.0 7.5 L 936.0 14.5 L 958.0 30.5 L 967.0 40.5 L 971.0 47.5 L 988.0 76.5 L 997.0 94.5 L 1000.0 102.5 L 1005.0 113.5 L 1015.0 127.5 L 1028.0 141.5 L 1041.0 153.5 L 1058.0 165.5 L 1064.0 171.5 L 1042.0 186.5 L 1025.0 201.5 L 1015.0 212.5 L 1005.0 225.5 L 990.0 252.5 L 985.0 261.5 L 980.0 272.5 L 974.0 284.5 L 965.0 297.5 L 955.0 308.5 L 941.0 320.5 L 925.0 331.5 L 912.0 337.5 L 904.0 339.5 L 903.0 340.5 L 896.0 340.5 L 895.0 341.5 L 879.0 342.5 L 878.0 343.5 L 815.5 344.0 L 234.5 344.0 L 173.0 343.5 L 172.0 342.5 L 159.0 340.5 L 158.0 339.5 L 145.0 334.5 L 132.0 327.5 L 122.0 320.5 L 111.0 310.5 L 102.5 300.0 L 70.5 240.0 L 54.5 217.0 L 42.0 203.5 L 27.0 190.5 Z');
+  clip-path: path('M 0.0 171.5 L 13.0 164.5 L 31.0 151.5 L 47.5 136.0 L 58.5 123.0 L 67.5 112.0 L 72.5 101.0 L 86.5 71.0 L 97.5 51.0 L 106.5 38.0 L 110.5 32.0 L 135.0 12.5 L 149.0 6.5 L 164.0 1.5 L 174.0 1.5 L 175.0 0.5 L 252.5 0.0 L 828.5 0.0 L 895.0 0.5 L 896.0 1.5 L 902.0 1.5 L 921.0 7.5 L 936.0 14.5 L 958.0 30.5 L 967.0 40.5 L 971.0 47.5 L 988.0 76.5 L 997.0 94.5 L 1000.0 102.5 L 1005.0 113.5 L 1015.0 127.5 L 1028.0 141.5 L 1041.0 153.5 L 1058.0 165.5 L 1064.0 171.5 L 1042.0 186.5 L 1025.0 201.5 L 1015.0 212.5 L 1005.0 225.5 L 990.0 252.5 L 985.0 261.5 L 980.0 272.5 L 974.0 284.5 L 965.0 297.5 L 955.0 308.5 L 941.0 320.5 L 925.0 331.5 L 912.0 337.5 L 904.0 339.5 L 903.0 340.5 L 896.0 340.5 L 895.0 341.5 L 879.0 342.5 L 878.0 343.5 L 815.5 344.0 L 234.5 344.0 L 173.0 343.5 L 172.0 342.5 L 159.0 340.5 L 158.0 339.5 L 145.0 334.5 L 132.0 327.5 L 122.0 320.5 L 111.0 310.5 L 102.5 300.0 L 70.5 240.0 L 54.5 217.0 L 42.0 203.5 L 27.0 190.5 Z');
+}
+
 .btn-outline,
 .btn-fill,
 .btn-hover {
@@ -1116,4 +1129,114 @@ main {
   background-size: contain;
   background-repeat: no-repeat;
   margin-right: clamp(12px, 2vw, 16px);
+}
+
+/* Base */
+:root {
+  --testimonial-bg: #fff;
+  --testimonial-shadow: rgba(0, 0, 0, 0.08);
+  --text-dark: #111;
+  --text-light: #555;
+}
+
+.testimonials-section {
+  padding: 80px 10px;
+  text-align: center;
+}
+
+.testimonials-section .container {
+  max-width: 1200px;
+  margin: auto;
+}
+
+/* Title & description */
+.section-title {
+  font-size: 2.6rem;
+  font-weight: 700;
+  margin-bottom: 12px;
+  color: var(--text-dark);
+}
+
+.section-description {
+  font-size: 1.1rem;
+  color: var(--text-light);
+  margin-bottom: 40px;
+  max-width: 720px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.testimonials-wrapper {
+  position: relative;
+  overflow: hidden;
+  padding: 20px;
+  /* Fade edges */
+  -webkit-mask-image: linear-gradient(to right,
+      transparent 0%,
+      black 10%,
+      black 90%,
+      transparent 100%);
+  mask-image: linear-gradient(to right,
+      transparent 0%,
+      black 10%,
+      black 90%,
+      transparent 100%);
+}
+
+/* Slider Rows */
+.slider-row {
+  display: flex;
+  gap: 24px;
+  animation: slideLeft 16s linear infinite;
+}
+
+.row2 {
+  animation: slideLeft 20s linear infinite reverse;
+  margin-top: 32px;
+}
+
+/* Card */
+.testimonial-card {
+  background: var(--testimonial-bg);
+  padding: 20px 24px;
+  border-radius: 16px;
+  box-shadow: 0 8px 18px var(--testimonial-shadow);
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  transition: transform 0.3s ease;
+}
+
+.testimonial-card:hover {
+  transform: scale(1.05);
+}
+
+/* Text */
+.review-text {
+  font-size: 1rem;
+  line-height: 1.5;
+  color: var(--text-dark);
+}
+
+.review-meta {
+  font-size: 0.9rem;
+  display: flex;
+  justify-content: space-between;
+  color: var(--text-light);
+}
+
+.review-rating {
+  color: #f5a623;
+}
+
+/* Animation keyframes */
+@keyframes slideLeft {
+  from {
+    transform: translateX(0%);
+  }
+
+  to {
+    transform: translateX(-50%);
+  }
 }
