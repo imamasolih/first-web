@@ -816,6 +816,12 @@ main {
   justify-content: center;
 }
 
+.rating-icon {
+  width: clamp(20px, 2.6vw, 28px);
+  height: clamp(20px, 2.6vw, 28px);
+  display: inline-block;
+}
+
 .rating-score {
   font-weight: 600;
 }
@@ -1084,7 +1090,7 @@ main {
 }
 
 .footer-section {
-  color: var(--bg);
+  color: var(--white);
   margin: 0;
   padding: 0;
   background-color: transparent;
@@ -1106,6 +1112,10 @@ main {
 
 .footer-section h2 {
   color: var(--gold);
+}
+
+.footer p {
+  color: var(--muted-light);
 }
 
 .footer-credit {
