@@ -1,0 +1,18 @@
+@media (min-width: 768px) and (max-width: 1030px) {
+    .page-panel {
+        display: block !important;
+    }
+
+    .page-panel--full .page-slicer {
+        background: unset;
+        background-color: var(--bg) !important;
+    }
+
+    .page-panel--full .page-slicer::after {
+        background-image: none !important;
+    }
+
+    .hero-plate {
+        top: 20vh !important
+    }
+}
