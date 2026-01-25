@@ -8,6 +8,10 @@
         background-color: var(--bg) !important;
     }
 
+    .page-panel--full .page-slicer::after {
+        background-image: none !important;
+    }
+
     .header-inner {
         flex-direction: row;
         align-items: center;
