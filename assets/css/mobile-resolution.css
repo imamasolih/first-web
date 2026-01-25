@@ -1,4 +1,13 @@
 @media (max-width: 768px) {
+    .page-panel {
+        display: block !important;
+    }
+
+    .page-panel--full .page-slicer {
+        background: unset;
+        background-color: var(--bg) !important;
+    }
+
     .header-inner {
         flex-direction: row;
         align-items: center;
