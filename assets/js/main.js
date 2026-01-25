@@ -1176,6 +1176,12 @@ const includeJobs = Array.from(includeTargets).map((target) => {
     .then((response) => response.text())
     .then((html) => {
       target.outerHTML = html;
+
+      const partialLoadedEvent = new CustomEvent('partialLoaded', {
+        detail: { partialKey: file }
+      });
+
+      document.dispatchEvent(partialLoadedEvent);
     })
     .catch((error) => {
       console.error("Include failed:", file, error);
