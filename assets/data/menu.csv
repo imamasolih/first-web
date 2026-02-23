@@ -1,7 +1,21 @@
-category,name,description,photo
-Baguettes,Caesar,"Chicken steaks, parmesan cheese, lettuce, bacon, caesar dressing",assets/images/caesar.jpg
-Baguettes,Caprese,"Mozzarella, tomato, pesto genovese, mascarpone, arugula, balsamico",assets/images/caprese.jpg
-Baguettes,Salmon,"Marinated salmon, gervais, arugula, mascarpone",assets/images/salmon.jpg
-Wraps,Chicken Wrap,"Grilled chicken, lettuce, tomato, yogurt sauce",assets/images/chicken-wrap.jpg
-Wraps,Veggie Wrap,"Roasted veggies, hummus, greens",assets/images/veggie-wrap.jpg
-Salads,Greek Salad,"Tomato, cucumber, feta, olives, oregano",assets/images/greek-salad.jpg
+category,name,description,photo,allergens,recommended
+Döner,Classic Döner,"Freshly grilled chicken, beef, or mixed meat served in homemade pita bread with fried vegetables (eggplant, zucchini, bell pepper, carrot, potatoes), crisp salad, lemon juice, aromatic herbs, spices, and your choice of sauce.",assets/images/caesar.jpg,"1,3,7",0
+Döner,Döner with Cheese,"Freshly grilled chicken, beef, or mixed meat in homemade pita bread with fried vegetables, fresh salad, lemon juice, Balkan-style cheese, herbs, spices, and your choice of sauce.",assets/images/caesar.jpg,,1
+Döner,Döner – Only Meat,"A generous portion of freshly grilled chicken, beef, or mixed meat in homemade pita bread, seasoned with aromatic herbs and spices, served with your choice of sauce.",assets/images/caesar.jpg,,
+Döner,Extra Large Döner,"An extra-large portion of freshly grilled chicken, beef, or mixed meat in homemade pita bread with fried vegetables, fresh salad, lemon juice, Balkan-style cheese, herbs, spices, and your choice of sauce.",assets/images/caesar.jpg,,
+Döner,Small Döner,"A smaller portion of freshly grilled chicken, beef, or mixed meat in homemade pita bread with fried vegetables, fresh salad, lemon juice, herbs, spices, and your choice of sauce.",assets/images/caesar.jpg,,
+Dürüm,Classic Dürüm,"Freshly grilled chicken, beef, or mixed meat wrapped in a homemade tortilla with fried vegetables, fresh salad, lemon juice, herbs, spices, and your choice of sauce.",assets/images/caprese.jpg,,
+Dürüm,Dürüm with Cheese,"Freshly grilled chicken, beef, or mixed meat wrapped in a homemade tortilla with fried vegetables, fresh salad, lemon juice, Balkan-style cheese, herbs, spices, and your choice of sauce.",assets/images/caprese.jpg,,1
+Dürüm,Dürüm – Only Meat,"A large portion of freshly grilled chicken, beef, or mixed meat wrapped in a homemade tortilla with aromatic herbs, spices, and your choice of sauce.",assets/images/caprese.jpg,,
+Dürüm,Extra Large Dürüm,"An extra-large portion of freshly grilled chicken, beef, or mixed meat wrapped in a homemade tortilla with fried vegetables, fresh salad, lemon juice, Balkan-style cheese, herbs, spices, and sauce.",assets/images/caprese.jpg,,
+Dürüm,Vegetarian Falafel Dürüm,"Crispy falafel or grilled halloumi wrapped in a homemade tortilla with fried vegetables, fresh salad, lemon juice, herbs, spices, and your choice of sauce.",assets/images/caprese.jpg,,
+Bowl,Bowl with Bread,"Freshly grilled chicken, beef, or mixed meat served in a bowl with fried vegetables, fresh salad, lemon juice, herbs, spices, your choice of sauce, and fresh bread on the side.",assets/images/salmon.jpg,,
+Bowl,Bowl with Rice or Fries,"Freshly grilled chicken, beef, or mixed meat served with basmati rice or crispy fries, fried vegetables, fresh salad, lemon juice, herbs, spices, and your choice of sauce.",assets/images/salmon.jpg,,
+Bowl,Large Bowl with Cheese and Bread,"A large portion of freshly grilled chicken, beef, or mixed meat with fried vegetables, fresh salad, lemon juice, Balkan-style cheese, herbs, spices, your choice of sauce, and fresh bread.",assets/images/salmon.jpg,,
+Bowl,Large Bowl with Cheese and Rice or Fries,"A large portion of freshly grilled chicken, beef, or mixed meat served with basmati rice or crispy fries, fried vegetables, fresh salad, lemon juice, Balkan-style cheese, herbs, spices, and sauce.",assets/images/salmon.jpg,,
+Bowl,Vegetarian Falafel or Halloumi Bowl,"Crispy falafel or grilled halloumi served with fried vegetables, fresh salad, lemon juice, herbs, spices, and your choice of sauce.",assets/images/salmon.jpg,,
+Kebab Boxes & Sides,Kebab Box,"A smaller portion of freshly grilled chicken, beef, or mixed meat served with fried vegetables, fresh salad, lemon juice, herbs, spices, and your choice of sauce.",assets/images/chicken-wrap.jpg,,
+Kebab Boxes & Sides,Kebab Box with Rice,"A smaller portion of freshly grilled chicken, beef, or mixed meat served with basmati rice, fried vegetables, fresh salad, lemon juice, herbs, spices, and your choice of sauce.",assets/images/chicken-wrap.jpg,,1
+Kebab Boxes & Sides,Kebab Box with Fries,"A smaller portion of freshly grilled chicken, beef, or mixed meat served with crispy fries, fried vegetables, fresh salad, lemon juice, herbs, spices, and your choice of sauce.",assets/images/chicken-wrap.jpg,,0
+Kebab Boxes & Sides,Salad with Cheese,"Fresh mixed salad with pomegranate seeds and creamy Balkan-style cheese.",assets/images/chicken-wrap.jpg,,
+Kebab Boxes & Sides,Fried Vegetables,"A mix of fried eggplant, zucchini, bell pepper, carrot, and potatoes.",assets/images/chicken-wrap.jpg,0,

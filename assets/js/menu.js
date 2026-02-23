@@ -226,7 +226,7 @@ class CsvMenuPage {
     const body = document.createElement("div");
     body.className = "menu-csv-body";
 
-    const name = document.createElement("h3");
+    const name = document.createElement("h4");
     name.className = "menu-csv-name";
     name.textContent = item.name;
 
@@ -237,9 +237,10 @@ class CsvMenuPage {
     body.appendChild(name);
     body.appendChild(description);
 
-    card.appendChild(mediaWrap);
+    
     card.appendChild(body);
-
+    card.appendChild(mediaWrap);
+    
     return card;
   }
 
