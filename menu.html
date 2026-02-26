@@ -25,54 +25,7 @@
     <link rel="stylesheet" href="assets/css/tablet-resolution.css" />
   </head>
   <body class="menu-page-body">
-    <header class="site-header">
-      <div class="container header-inner">
-        <a class="logo" href="index.html#home" aria-label="Don's Pizza & Kebab">
-          <img
-            class="logo-image"
-            src="assets/img/logos/dons.svg"
-            alt="DON's Kebab logo"
-          />
-        </a>
-
-        <input type="checkbox" id="nav-toggle" class="nav-toggle" />
-
-        <label
-          for="nav-toggle"
-          class="nav-toggle-label"
-          aria-label="Toggle menu"
-        >
-          <svg class="icon icon-menu" viewBox="0 0 24 24" aria-hidden="true">
-            <path d="M3 6h18M3 12h18M3 18h18" />
-          </svg>
-
-          <svg class="icon icon-close" viewBox="0 0 24 24" aria-hidden="true">
-            <path d="M6 6l12 12M18 6l-12 12" />
-          </svg>
-        </label>
-
-        <nav class="nav" aria-label="Primary">
-          <a class="nav-link" href="index.html#home">Home</a>
-          <a class="nav-link" href="index.html#locations">Locations</a>
-          <a class="nav-link" href="index.html#reviews">Reviews</a>
-          <a class="nav-link" href="index.html#contact-us">Contact us</a>
-        </nav>
-        <div class="header-cta">
-          <div class="header-cta-inner">
-            <a
-              class="btn btn-primary btn-pill btn-animated btn-curvy"
-              href="menu.html"
-              aria-current="page"
-            >
-              <span class="btn-outline" aria-hidden="true"></span>
-              <span class="btn-fill" aria-hidden="true"></span>
-              <span class="btn-hover" aria-hidden="true"></span>
-              <span class="btn-label">Menu</span>
-            </a>
-          </div>
-        </div>
-      </div>
-    </header>
+    <div id="header-section" data-include="partials/header.html"></div>
 
     <main class="menu-page-main">
       <section class="menu-page">
@@ -84,16 +37,18 @@
                   </svg>
                 </button>
             <aside class="menu-page-sidebar card" id="menu-sidebar" aria-label="Menu categories">
-              <div class="menu-sidebar-header">
-                <h1 class="menu-page-title">Menu Categories</h1>
+              <div class="menu-sidebar-container">
+                <div class="menu-sidebar-header">
+                  <h1 class="menu-page-title">Menu Categories</h1>
+                </div>
+                <hr class="menu-devider"/>
+                <div
+                  id="menu-categories"
+                  class="menu-page-categories"
+                  role="tablist"
+                  aria-label="Menu categories"
+                ></div>
               </div>
-              <hr class="menu-devider"/>
-              <div
-                id="menu-categories"
-                class="menu-page-categories"
-                role="tablist"
-                aria-label="Menu categories"
-              ></div>
             </aside>
 
             <section class="menu-page-content" aria-live="polite">

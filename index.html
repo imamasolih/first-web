@@ -25,56 +25,8 @@
 
   </head>
   <body>
-    <header class="site-header">
-      <div class="container header-inner">
-        <a class="logo" href="#home" aria-label="Don's Pizza & Kebab">
-          <img
-            class="logo-image"
-            src="assets/img/logos/dons.svg"
-            alt="DON's Kebab logo"
-          />
-        </a>
-
-        <!-- MOBILE TOGGLE -->
-        <input type="checkbox" id="nav-toggle" class="nav-toggle" />
-
-        <label
-          for="nav-toggle"
-          class="nav-toggle-label"
-          aria-label="Toggle menu"
-        >
-          <!-- Hamburger icon -->
-          <svg class="icon icon-menu" viewBox="0 0 24 24" aria-hidden="true">
-            <path d="M3 6h18M3 12h18M3 18h18" />
-          </svg>
-
-          <!-- Close icon -->
-          <svg class="icon icon-close" viewBox="0 0 24 24" aria-hidden="true">
-            <path d="M6 6l12 12M18 6l-12 12" />
-          </svg>
-        </label>
-
-        <nav class="nav" aria-label="Primary">
-          <a class="nav-link" href="#home">Home</a>
-          <a class="nav-link" href="#locations">Locations</a>
-          <a class="nav-link" href="#reviews">Reviews</a>
-          <a class="nav-link" href="#contact-us">Contact us</a>
-        </nav>
-        <div class="header-cta">
-          <div class="header-cta-inner">
-            <a
-              class="btn btn-primary btn-pill btn-animated btn-curvy"
-              href="menu.html"
-            >
-              <span class="btn-outline" aria-hidden="true"></span>
-              <span class="btn-fill" aria-hidden="true"></span>
-              <span class="btn-hover" aria-hidden="true"></span>
-              <span class="btn-label">Menu</span>
-            </a>
-          </div>
-        </div>
-      </div>
-    </header>
+    <div data-include="partials/header.html"></div>
+   
     <div class="page-panel page-panel--full" aria-hidden="true">
       <div class="page-slicer" aria-hidden="true">
         <div class="panel-vertical-text" aria-hidden="true">
@@ -641,6 +593,7 @@
         }
       ];
     </script>
+    <script src="assets/js/header.js" async defer></script>
     <script src="assets/js/main.js" async defer></script>
     <script src="https://web3forms.com/client/script.js" async defer></script>
     <script src="assets/js/contact-us.js" async defer></script>

@@ -160,4 +160,7 @@
     .rating-card {
         min-width: 95vw;
     }
+    #mobile-menu-button {
+        display: block;
+    }
 }

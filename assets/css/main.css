@@ -1690,3 +1690,6 @@ textarea:focus {
   font-weight: bold;
 }
 
+#mobile-menu-button {
+  display: none;;
+}
