@@ -21,7 +21,6 @@
   max-width: 250px;
 }
 
-
 .menu-page-body .site-header {
   background: var(--gold-soft);
   backdrop-filter: blur(8px);
@@ -168,6 +167,7 @@
   overflow: hidden;
   min-height: 100%;
   transition: transform 0.2s ease, box-shadow 0.2s ease;
+  gap: 1rem;
 }
 
 .menu-csv-card:hover {
@@ -176,7 +176,6 @@
 }
 
 .menu-csv-media-wrap {
-  margin-top: auto;
   aspect-ratio: 4 / 3;
   background: var(--gold-soft);
   overflow: hidden;
@@ -209,9 +208,18 @@
   display: grid;
   align-content: start;
   gap: 8px;
+  margin-bottom: auto;
 }
 
 .menu-csv-name {
+  display: flex;
+  flex-flow: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+}
+
+.menu-csv-we-recommend-img{
+  max-height: var(--pico-font-size);
 }
 
 .menu-csv-description {
@@ -403,4 +411,114 @@
   .menu-csv-card {
     min-height: unset;
   }
+}
+
+.card-slider {
+  display: flex;
+  width: 200%;
+  height: 100%;
+  gap: 1rem;
+  transition: transform 0.45s ease;
+}
+
+.menu-csv-card.active .card-slider {
+  transform: translateX(calc(-50% - 1rem));
+}
+
+.card-side {
+  width: 50%;
+  height: 100%;
+  flex-shrink: 0;
+  box-sizing: border-box;
+  display: grid;
+  gap: 0.1rem;
+}
+
+.card-face {
+  width: 50%;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.card-front img {
+  width: 100%;
+  border-radius: 12px;
+}
+
+.chip {
+  padding: 6px 12px;
+  border-radius: 20px;
+  font-size: 12px;
+}
+
+.danger {
+  background: #ffe5e5;
+  color: #c62828;
+}
+
+.allergen {
+  display: inline-block;
+  padding: 6px 12px;
+  border-radius: 20px;
+  font-size: 12px;
+  margin-right: 8px;
+}
+
+.contains { background: #ffe5e5; color: #c62828; }
+.warning { background: #fff4cc; color: #c77700; }
+
+.nutrition-row {
+  margin: 10px 0;
+}
+
+.bar {
+  height: 6px;
+  border-radius: 6px;
+  background: #ddd;
+  margin-top: 4px;
+  position: relative;
+}
+
+.bar.high::after {
+  content: "";
+  position: absolute;
+  width: 90%;
+  height: 100%;
+  background: #1f8037;
+  border-radius: 6px;
+}
+
+.bar.medium::after {
+  content: "";
+  position: absolute;
+  width: 60%;
+  height: 100%;
+  background: #ffb347;
+  border-radius: 6px;
+}
+
+.dots {
+  position: absolute;
+  bottom: 16px;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  z-index: 10; /* ensures it stays above slider */
+  pointer-events: none; /* doesn't block swipe */
+}
+
+.dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: var(--muted);
+  display: inline-block;
+  margin: 0 5px;
+  transition: all 0.3s ease;
+}
+
+.dot.active {
+  background: var(--gold);
+  transform: scale(1.3);
+  border-radius: 6px;
 }

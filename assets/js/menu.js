@@ -40,6 +40,7 @@ class CsvMenuPage {
       this.activeCategory = this.categories[0];
       this.renderCategories();
       this.renderItems();
+      initMenuDetailsToggle();
     } catch (error) {
       console.error("Menu load failed.", error);
       this.itemsGridEl.innerHTML = "";
@@ -54,7 +55,9 @@ class CsvMenuPage {
     if (!response.ok) {
       throw new Error(`CSV HTTP ${response.status}`);
     }
-    return response.text();
+
+    const result = await response.text();
+    return result;
   }
 
   parseCsv(rawText) {
@@ -127,6 +130,8 @@ class CsvMenuPage {
         name: String(row.name || "").trim(),
         description: String(row.description || "").trim(),
         photo: String(row.photo || "").trim(),
+        recommended: String(row.recommended || "").toLowerCase() === "1",
+        allergens: String(row.allergens || "").split(",").map((a) => a.trim()).filter((a) => a !== ""),
       }))
       .filter((item) => item.category && item.name);
   }
@@ -203,7 +208,50 @@ class CsvMenuPage {
   createMealCard(item) {
     const card = document.createElement("article");
     card.className = "menu-csv-card card";
+    const cardTracker = document.createElement("div");
+    cardTracker.className = "card-slider";
+    const cardFront = document.createElement("div");
+    cardFront.className = "card-side front";
 
+    const cardBack = document.createElement("div");
+    cardBack.className = "card-side back";
+
+    const body = document.createElement("div");
+    body.className = "menu-csv-body";
+
+    body.appendChild(createMenuNameElement(item));
+    body.appendChild(createMenuDescriptionElement(item));
+    cardFront.appendChild(createMenuMediaElement(item));
+    cardFront.appendChild(body);
+
+    cardBack.appendChild(createMoreDetailsElement(item));
+    
+    cardTracker.appendChild(cardFront);
+    cardTracker.appendChild(cardBack);
+    card.appendChild(cardTracker);
+    card.appendChild(createSliderDots());
+    return card;
+  }
+
+  createMediaPlaceholder() {
+    const placeholder = document.createElement("div");
+    placeholder.className = "menu-csv-media-placeholder";
+    placeholder.textContent = "Image unavailable";
+    return placeholder;
+  }
+}
+
+const createSliderDots = () => {
+  const dots = document.createElement("div");
+  dots.innerHTML = `<div class="dots">
+    <span class="dot active"></span>
+    <span class="dot"></span>
+  </div>`;
+  
+  return dots;
+}
+
+const createMenuMediaElement = (item) => {
     const mediaWrap = document.createElement("div");
     mediaWrap.className = "menu-csv-media-wrap";
 
@@ -222,34 +270,74 @@ class CsvMenuPage {
     } else {
       mediaWrap.appendChild(this.createMediaPlaceholder());
     }
+    return mediaWrap
+};
 
-    const body = document.createElement("div");
-    body.className = "menu-csv-body";
+const createMoreDetailsElement = (item) => {
+  const details = document.createElement("div");
+  details.className = "menu-csv-more-details";
+  details.innerHTML = `<div class="card-details">
 
-    const name = document.createElement("h4");
-    name.className = "menu-csv-name";
-    name.textContent = item.name;
+      <p class="full-desc">
+        Freshly grilled chicken, beef or mixed meat served in homemade pita bread...
+      </p>
 
-    const description = document.createElement("p");
-    description.className = "menu-csv-description";
+      <div class="allergens">
+        <span class="allergen contains">Gluten</span>
+        <span class="allergen contains">Dairy</span>
+        <span class="allergen warning">Sesame</span>
+      </div>
+
+      <div class="nutrition">
+        <div class="nutrition-row">
+          <span>Protein</span>
+          <div class="bar high"></div>
+        </div>
+        <div class="nutrition-row">
+          <span>Calories</span>
+          <div class="bar medium"></div>
+        </div>
+        <div class="nutrition-row">
+          <span>Fat</span>
+          <div class="bar medium"></div>
+        </div>
+      </div>
+    </div>`;
+  return details;
+}
+
+const createMenuDescriptionElement = (item) => {
+  const description = document.createElement("p");
+  description.className = "menu-csv-description";
+  if(item.description.length > 100){
+    description.textContent = item.description.substring(0, 100) + "...";
+  } else {
     description.textContent = item.description || "No description available.";
-
-    body.appendChild(name);
-    body.appendChild(description);
-
-    
-    card.appendChild(body);
-    card.appendChild(mediaWrap);
-    
-    return card;
   }
 
-  createMediaPlaceholder() {
-    const placeholder = document.createElement("div");
-    placeholder.className = "menu-csv-media-placeholder";
-    placeholder.textContent = "Image unavailable";
-    return placeholder;
-  }
+  return description;
+}
+
+const createMenuNameElement = (item) => {
+   const name = document.createElement("h4");
+    const nameDiv = document.createElement("div");
+    nameDiv.className = "menu-csv-name-wrap";
+    const weRecommendDiv = document.createElement("div");
+
+    name.className = "menu-csv-name";
+    nameDiv.textContent = item.name;
+
+    if(item.recommended) {
+      const weRecommendLogo = document.createElement("img");
+      weRecommendLogo.src = "assets/img/icons/recommended.png";
+      weRecommendLogo.className = "menu-csv-we-recommend-img";
+
+      weRecommendDiv.appendChild(weRecommendLogo);
+    }
+
+    name.appendChild(nameDiv);
+    name.appendChild(weRecommendDiv);
+    return name;
 }
 
 const initCsvMenuPage = () => {
@@ -332,6 +420,28 @@ const initSidebarToggle = () => {
     observer.observe(categoriesContainer, { childList: true });
   }
 };
+
+const initMenuDetailsToggle = function () {
+  document.querySelectorAll('.menu-csv-card').forEach(card => {
+
+    const dots = card.querySelectorAll('.dot');
+
+    card.addEventListener('click', function(e) {
+
+      // Prevent toggling if clicking on button or link
+      if (e.target.closest('button, a')) return;
+
+      card.classList.toggle('active');
+
+      const isActive = card.classList.contains('active');
+
+      dots[0].classList.toggle('active', !isActive);
+      dots[1].classList.toggle('active', isActive);
+    });
+
+  });
+};
+
 
 if (document.readyState === "loading") {
   document.addEventListener("DOMContentLoaded", () => {
