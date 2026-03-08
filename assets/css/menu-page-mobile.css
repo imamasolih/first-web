@@ -1,0 +1,36 @@
+@media (max-width: 768px) {
+    .menu-page-content {
+        padding: 0;
+    }
+    
+    .menu-page-header {
+        padding: 10px;
+        top: calc(clamp(40px, 4.5vw, 56px) + clamp(15px, 1.0vw, 16px) * 2);
+        z-index: 50;
+    }
+
+    .footer-section {
+        margin-top: -7rem;
+    }
+
+    .card-side {
+        gap: 0.5rem;
+    }
+
+    .menu-page-body {
+        background: var(--white);
+    }
+
+    .menu-csv-card {
+        min-height: unset;
+    }
+    
+    .menu-active-category {
+        display: flex;
+        align-self: center;
+    }
+
+    .hero-partners-container{
+        align-self: center;
+    }
+}

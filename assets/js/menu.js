@@ -277,28 +277,27 @@ const createMoreDetailsElement = (item) => {
   const details = document.createElement("div");
   details.className = "menu-csv-more-details";
   details.innerHTML = `<div class="card-details">
-
       <p class="full-desc">
         Freshly grilled chicken, beef or mixed meat served in homemade pita bread...
       </p>
-
+      <hr class="menu-devider"/>
       <div class="allergens">
-        <span class="allergen contains">Gluten</span>
-        <span class="allergen contains">Dairy</span>
-        <span class="allergen warning">Sesame</span>
+        <span class="allergen contains"><icon><icon/>🌾 Gluten</span>
+        <span class="allergen green">🥛 Dairy</span>
+        <span class="allergen warning">🌰 Sesame</span>
       </div>
-
+      <hr class="menu-devider"/>
       <div class="nutrition">
         <div class="nutrition-row">
-          <span>Protein</span>
+          <span>Protein:</span>
           <div class="bar high"></div>
         </div>
         <div class="nutrition-row">
-          <span>Calories</span>
+          <span>Calories:</span>
           <div class="bar medium"></div>
         </div>
         <div class="nutrition-row">
-          <span>Fat</span>
+          <span>Fat:</span>
           <div class="bar medium"></div>
         </div>
       </div>
