@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-02T04:57:01.189Z",
+  "generatedAt": "2026-03-09T05:01:44.882Z",
   "refreshIntervalDays": 7,
   "locations": [
     {
@@ -22,6 +22,14 @@
           "rating": 5,
           "text": "Delicious kebab.",
           "time": 1771361359
+        },
+        {
+          "author_name": "Adam Hübsch",
+          "author_url": "https://www.google.com/maps/contrib/103088590181381913278/reviews",
+          "profile_photo_url": "https://lh3.googleusercontent.com/a-/ALV-UjXbrJmOkIMUmq8KMSib7DNyG41oud5mP-vxQkGG15fLOCKMwuNjOg=s128-c0x00000000-cc-rp-mo-ba3",
+          "rating": 5,
+          "text": "Exceptionally good kebab, definitely worth a visit. I personally recommend getting the piri piri sauce and don't miss the vegetables!! (They have grilled ones 🥰)",
+          "time": 1770580844
         }
       ]
     },
@@ -47,6 +55,14 @@
           "time": 1772396727
         },
         {
+          "author_name": "Jaroslav Kolář",
+          "author_url": "https://www.google.com/maps/contrib/109446187029362001160/reviews",
+          "profile_photo_url": "https://lh3.googleusercontent.com/a/ACg8ocJNSMs3HLTpwZv-j46xCdNf-4yXIMD9nxjDjn7b9QCeYZf99Q=s128-c0x00000000-cc-rp-mo-ba2",
+          "rating": 5,
+          "text": "Very nice service and great kebab",
+          "time": 1771612420
+        },
+        {
           "author_name": "Vojtěch Zelinka",
           "author_url": "https://www.google.com/maps/contrib/111806978263993149271/reviews",
           "profile_photo_url": "https://lh3.googleusercontent.com/a/ACg8ocI1lFysahQrQ0eOYgDvhnhFdIn-DxV4-Z1Nwppe0ulkNm93ng=s128-c0x00000000-cc-rp-mo",
@@ -64,42 +80,34 @@
         "lat": 50.09022,
         "lng": 14.44019
       },
-      "rating": 4.3,
-      "user_ratings_total": 206,
+      "rating": 4.4,
+      "user_ratings_total": 210,
       "formatted_address": "Křižíkova 254/5, 186 00 Praha 8-Florenc, Czechia",
       "formatted_phone_number": "773 002 377",
       "reviews": [
         {
-          "author_name": "ABDULBOSIT MIRZAJONOV",
-          "author_url": "https://www.google.com/maps/contrib/113665714444807741392/reviews",
-          "profile_photo_url": "https://lh3.googleusercontent.com/a-/ALV-UjUm4kBg3oJ4sdq5bzx1sv-kON3rWGXoMP1yTYIq6n9ZUeQBVDY=s128-c0x00000000-cc-rp-mo",
+          "author_name": "Вова Андрієнко",
+          "author_url": "https://www.google.com/maps/contrib/111547705710935689444/reviews",
+          "profile_photo_url": "https://lh3.googleusercontent.com/a-/ALV-UjWlAh2HamOQW_xzkz-ZL0AIY6dGOLWOZXSPeaDTeV35NIemMWs=s128-c0x00000000-cc-rp-mo",
           "rating": 5,
-          "text": "Their kebab absolutely different which means unrepeatable tasty 😋",
-          "time": 1772387529
+          "text": "Všechno je velmi chutné. Vaří rychle. Personál je příjemný.",
+          "time": 1772992594
         },
         {
-          "author_name": "Viktor Chystukh",
-          "author_url": "https://www.google.com/maps/contrib/104566933607931433397/reviews",
-          "profile_photo_url": "https://lh3.googleusercontent.com/a-/ALV-UjWUeLN1n6UKTcAjppjaNj5ko0uuPUTgJrMY5VwEb8ZQGLOpQ8CDLA=s128-c0x00000000-cc-rp-mo",
+          "author_name": "Mandeep Dahiya",
+          "author_url": "https://www.google.com/maps/contrib/105923350689511345696/reviews",
+          "profile_photo_url": "https://lh3.googleusercontent.com/a-/ALV-UjXJdTvB4GlL9TX3Dvk2vCq0pJBGjMnNPMtZYQ31oAY6cZDaPIDV=s128-c0x00000000-cc-rp-mo",
           "rating": 5,
-          "text": "The pizza is great, I recommend it 👍",
-          "time": 1772015588
+          "text": "Very good pizza 🍕😋",
+          "time": 1772909483
         },
         {
-          "author_name": "Ashkan Lejeune",
-          "author_url": "https://www.google.com/maps/contrib/108202823320860219405/reviews",
-          "profile_photo_url": "https://lh3.googleusercontent.com/a-/ALV-UjVvdYI47_-E5zZvDjIYl9n7o4Sk8DAqTjyox3F8-Zxa2p2t4goX=s128-c0x00000000-cc-rp-mo",
+          "author_name": "Michel Brandao",
+          "author_url": "https://www.google.com/maps/contrib/100946873512383341032/reviews",
+          "profile_photo_url": "https://lh3.googleusercontent.com/a-/ALV-UjU4dzsCulTRxKxpGJuFv5cpeY36iTzm1YEw9ap_K-W9KerdIqkV=s128-c0x00000000-cc-rp-mo",
           "rating": 5,
-          "text": "Delicious, best durums ever!\n\nNils & Ashkan\n\nP.S.: falafel = crispy",
-          "time": 1771710127
-        },
-        {
-          "author_name": "maru",
-          "author_url": "https://www.google.com/maps/contrib/115748317997991817059/reviews",
-          "profile_photo_url": "https://lh3.googleusercontent.com/a-/ALV-UjWWUReFlOkpWmdlOdm9F6oJu1-cdXIhj4TUutOn8i2-MU60ekAQ=s128-c0x00000000-cc-rp-mo",
-          "rating": 5,
-          "text": "Great food and excellent service! Recommend 100%",
-          "time": 1771618428
+          "text": "I come to this pizzeria often and can now say I'm a regular. The service is always very fast, and the staff is friendly and organized.\n\nThe pizza is truly excellent: you can taste the quality ingredients, and the dough is light, easy to digest, and delicious.\n\nAnother plus is the price, which is definitely below average compared to other pizzerias, especially considering the quality.\n\nHighly recommended, I'll definitely be back again and again!",
+          "time": 1772637222
         }
       ]
     },
@@ -111,34 +119,42 @@
         "lat": 50.08443,
         "lng": 14.45162
       },
-      "rating": 4.1,
-      "user_ratings_total": 28,
+      "rating": 4.2,
+      "user_ratings_total": 39,
       "formatted_address": "J. Želivského 1926/7, 130 00 Praha 3-Žižkov, Czechia",
       "formatted_phone_number": "770 632 251",
       "reviews": [
         {
-          "author_name": "Алихан Жумабаев (JJBA)",
-          "author_url": "https://www.google.com/maps/contrib/105249051510037040496/reviews",
-          "profile_photo_url": "https://lh3.googleusercontent.com/a-/ALV-UjWIzY1KXn1uG3Yb2_LjdIClleW7W85SzgD2gMOkP5KWwWjmR6UR=s128-c0x00000000-cc-rp-mo",
+          "author_name": "Jonas Stoilov",
+          "author_url": "https://www.google.com/maps/contrib/106022880661432401951/reviews",
+          "profile_photo_url": "https://lh3.googleusercontent.com/a/ACg8ocJ8slYvS_AjUTJo-Z_SrlANr54A_VaUYU6QuHfp2YDQuYZ5IQ=s128-c0x00000000-cc-rp-mo",
           "rating": 5,
-          "text": "The best employees of this restaurant, top notch💪",
-          "time": 1772056082
+          "text": "Very good hallumi dürüm, always a large portion and great guacamole sauce. I appreciate that they have a selection for vegetarians. I recommend it if you are looking for something quick and tasty. A little more expensive (160 CZK), but definitely worth it",
+          "time": 1772834161
         },
         {
-          "author_name": "Арсений Белогородский",
-          "author_url": "https://www.google.com/maps/contrib/105330173494231163568/reviews",
-          "profile_photo_url": "https://lh3.googleusercontent.com/a/ACg8ocLtuj8ZSJ7N84iUiV64GEVzRmYU2gYtU_Bfq3dUXt2fSoSDrw=s128-c0x00000000-cc-rp-mo",
+          "author_name": "Mihail Kulikov",
+          "author_url": "https://www.google.com/maps/contrib/116002485345745442082/reviews",
+          "profile_photo_url": "https://lh3.googleusercontent.com/a/ACg8ocKu57Z3S-GYW3n4vry24KJiMy5GDNE55_HtPIy6Z2YCq7m5TQ=s128-c0x00000000-cc-rp-mo",
           "rating": 5,
-          "text": "The döner here is fantastic; people don't want meat; I always get it with spicy and belinka sauce.\nWe also recently got pizza – also delicious.\nHighly recommended!",
-          "time": 1771959885
+          "text": "Great meat bowl!",
+          "time": 1772824764
         },
         {
-          "author_name": "zee johnz",
-          "author_url": "https://www.google.com/maps/contrib/109416857693813783601/reviews",
-          "profile_photo_url": "https://lh3.googleusercontent.com/a/ACg8ocIJX7a62HGpSE1azES5YvqqSwaVkEy1UIOZTqwJSFSo0myyzg=s128-c0x00000000-cc-rp-mo",
+          "author_name": "Alex Solodiuc",
+          "author_url": "https://www.google.com/maps/contrib/115253237863961313265/reviews",
+          "profile_photo_url": "https://lh3.googleusercontent.com/a/ACg8ocIWLzVuanbzdksucxaF1j8Y1rlnl4Iwe7wq6mz7yZQxHK56BA=s128-c0x00000000-cc-rp-mo",
           "rating": 5,
-          "text": "Very pleasant place",
-          "time": 1771942466
+          "text": "Excellent kebab! I live a short distance from here, so I come here quite often. Everything is always fresh - vegetables are crispy, meat is juicy and perfectly seasoned. Really very tasty. I recommend 👍🏼",
+          "time": 1772812453
+        },
+        {
+          "author_name": "Ekaterina Lysenko",
+          "author_url": "https://www.google.com/maps/contrib/106718267648825500768/reviews",
+          "profile_photo_url": "https://lh3.googleusercontent.com/a/ACg8ocKCiLfXdzwsdOsOTtWcNkHaH3jTEB_NnBoCgg-VxKOMs3-AwQ=s128-c0x00000000-cc-rp-mo",
+          "rating": 5,
+          "text": "The food was really very tasty. I liked the cheese pizza the most🥹 The box was also delicious, the portion was big enough and everything was fresh. I definitely recommend it!🙏",
+          "time": 1772812178
         }
       ]
     },
@@ -150,26 +166,42 @@
         "lat": 50.07793,
         "lng": 14.47681
       },
-      "rating": 4.1,
-      "user_ratings_total": 213,
+      "rating": 4.2,
+      "user_ratings_total": 217,
       "formatted_address": "Vinohradská 2375/198, Vinohrady, 130 00 Praha-Praha 3, Czechia",
       "formatted_phone_number": "778 572 553",
       "reviews": [
         {
-          "author_name": "Rachël Drouet",
-          "author_url": "https://www.google.com/maps/contrib/113313494647730006343/reviews",
-          "profile_photo_url": "https://lh3.googleusercontent.com/a-/ALV-UjWlXr9MxkMYXdEjJll0-nUHRlYcPHkHxWWZleT3XMJV7cPCHszzgQ=s128-c0x00000000-cc-rp-mo-ba4",
+          "author_name": "Denys Krets",
+          "author_url": "https://www.google.com/maps/contrib/114177274861741771749/reviews",
+          "profile_photo_url": "https://lh3.googleusercontent.com/a-/ALV-UjVL_SPbmzNmQsDnrkOfvT2SWFi6mhXTJVcaIWGztrnGsbCZvA=s128-c0x00000000-cc-rp-mo",
           "rating": 5,
-          "text": "The kebab was excellent, however the fries were undercooked.\n\nThe price is very reasonable.",
-          "time": 1770752705
+          "text": "Nice kebab 💪👍",
+          "time": 1772997293
         },
         {
-          "author_name": "L M",
-          "author_url": "https://www.google.com/maps/contrib/116193351685873121356/reviews",
-          "profile_photo_url": "https://lh3.googleusercontent.com/a-/ALV-UjUyVLJBe3fOt3IIvsQAcBK6awpY6rl2NAm514ULSAorqYsxDElREg=s128-c0x00000000-cc-rp-mo-ba3",
+          "author_name": "Jsssi",
+          "author_url": "https://www.google.com/maps/contrib/107097334688095284726/reviews",
+          "profile_photo_url": "https://lh3.googleusercontent.com/a-/ALV-UjVdpplDp869isGqGUW0yd6HD7XbHqzhvZEdVbjQ7Q8GQnZqw0bN=s128-c0x00000000-cc-rp-mo",
           "rating": 5,
-          "text": "Very tasty. Nice people.",
-          "time": 1768065824
+          "text": "Very good, tasty.\nThis kebab is what i was looking for!",
+          "time": 1772989409
+        },
+        {
+          "author_name": "Jakub Kapaník",
+          "author_url": "https://www.google.com/maps/contrib/103885740018231835765/reviews",
+          "profile_photo_url": "https://lh3.googleusercontent.com/a-/ALV-UjXD0qFEuBwWIpEKelwEAK5B6fCJhXW6anZ7An6SC71gNdvh3u6fjw=s128-c0x00000000-cc-rp-mo-ba3",
+          "rating": 5,
+          "text": "Very good kebab, one of the best I've ever eaten. Praise mainly for the very good grilled vegetables, but also the meat and sauce",
+          "time": 1772792092
+        },
+        {
+          "author_name": "Sam",
+          "author_url": "https://www.google.com/maps/contrib/101613710864796457537/reviews",
+          "profile_photo_url": "https://lh3.googleusercontent.com/a/ACg8ocJvAn2gN9gcALlx-tpL8F0_JcLK_KPruqIqPKkhwaEbtjdvdzo=s128-c0x00000000-cc-rp-mo",
+          "rating": 5,
+          "text": "Great food and super friendly staff!!",
+          "time": 1772488481
         }
       ]
     },
@@ -182,26 +214,10 @@
         "lng": 14.40873
       },
       "rating": 4.6,
-      "user_ratings_total": 429,
+      "user_ratings_total": 431,
       "formatted_address": "Nádražní 279/1, 150 00 Praha 5-Smíchov, Czechia",
       "formatted_phone_number": "737 837 162",
       "reviews": [
-        {
-          "author_name": "Faical Bachiri",
-          "author_url": "https://www.google.com/maps/contrib/105279255422480593387/reviews",
-          "profile_photo_url": "https://lh3.googleusercontent.com/a-/ALV-UjWFMdcBRqZWBiu9T9a74IRf7VMQvCsRpujD3LK8Bxehb3qhi6531g=s128-c0x00000000-cc-rp-mo-ba4",
-          "rating": 4,
-          "text": "This is the average Czech Kebab place. The meat you get on your Döner is done hours before you eat it. It is not fresh from the grill but only cut (not even really grilled) and then put into a box to keep it warm. So  you get old meat instead of freshly grilled.\nIf this is how you like it then good for you.\nEveryone else who likes a good Döner from Germany or Turkey, stay away from it.",
-          "time": 1772360305
-        },
-        {
-          "author_name": "Максим",
-          "author_url": "https://www.google.com/maps/contrib/106009536903226784873/reviews",
-          "profile_photo_url": "https://lh3.googleusercontent.com/a/ACg8ocLYE_APnhIbrGVPdH68EAhaLnkPcCnVg7fL99oxm0du-KAjvg=s128-c0x00000000-cc-rp-mo",
-          "rating": 5,
-          "text": "kissed the cook's hands",
-          "time": 1771172578
-        },
         {
           "author_name": "Лук'ян Левінковський",
           "author_url": "https://www.google.com/maps/contrib/114518462518978471114/reviews",
@@ -211,12 +227,12 @@
           "time": 1770673576
         },
         {
-          "author_name": "Dominik Kafka",
-          "author_url": "https://www.google.com/maps/contrib/100593943081780995938/reviews",
-          "profile_photo_url": "https://lh3.googleusercontent.com/a-/ALV-UjXqEiHZxyCzkR3bi8xK-7TnjX17eTabKtu_8pi8SSb_mMdMpYp-=s128-c0x00000000-cc-rp-mo",
-          "rating": 3,
-          "text": "I had a kebab with my girlfriend, fries with sauce and salad. For me, the kebab was pretty good, but the fries with herb sauce were terrible. The fries were cold, the sauce was salty and overall it was rubbery. You can't go wrong with a salad so she liked it. The service was nice but there was nowhere to sit.",
-          "time": 1771154992
+          "author_name": "Klara Novotna",
+          "author_url": "https://www.google.com/maps/contrib/111741681474674212077/reviews",
+          "profile_photo_url": "https://lh3.googleusercontent.com/a-/ALV-UjVrRzNkmrCrP1tei-SAWgu8KEK7WIpqjV7nOW5f4AA8mG7CVFI=s128-c0x00000000-cc-rp-mo",
+          "rating": 5,
+          "text": "Best kebab ever🩷🩷🩷🩷🩷🩷🩷🩷🩷🩷🩷🩷🩷🩷🩷 great opening hours guys🩷 love ya",
+          "time": 1770421212
         }
       ]
     },
@@ -228,18 +244,34 @@
         "lat": 50.06334,
         "lng": 14.44342
       },
-      "rating": 4.3,
-      "user_ratings_total": 72,
+      "rating": 4.4,
+      "user_ratings_total": 92,
       "formatted_address": "Nuselská 171/15, 140 00 Praha 4-Nusle, Czechia",
       "formatted_phone_number": "775 660 045",
       "reviews": [
         {
-          "author_name": "Viktoriia Lyt",
-          "author_url": "https://www.google.com/maps/contrib/116255183173472253609/reviews",
-          "profile_photo_url": "https://lh3.googleusercontent.com/a-/ALV-UjULEC-syzDjfdw8ZaF1q0MhgqK1dXSnbjpLwugnzcoy4SgPsF_d=s128-c0x00000000-cc-rp-mo-ba2",
+          "author_name": "Ігор Василик",
+          "author_url": "https://www.google.com/maps/contrib/109847193309881238877/reviews",
+          "profile_photo_url": "https://lh3.googleusercontent.com/a/ACg8ocJcyPspBRTaWy5ItkfEHySevhK7g8btBl1E4YWW654j_sgI7w=s128-c0x00000000-cc-rp-mo",
           "rating": 5,
-          "text": "Everything is great. The food is delicious 😋. I recommend 🫶",
-          "time": 1772318914
+          "text": "Замовляли, піцу, дуже смачно рекомендую заклад😊",
+          "time": 1773005929
+        },
+        {
+          "author_name": "Rakeťák",
+          "author_url": "https://www.google.com/maps/contrib/103672959293935506258/reviews",
+          "profile_photo_url": "https://lh3.googleusercontent.com/a-/ALV-UjUFwNZUULBScfO2HUAfB8y8l9_Eh_-JD-3KHWN1e75YCmI1ZAg=s128-c0x00000000-cc-rp-mo",
+          "rating": 5,
+          "text": "Super",
+          "time": 1772991189
+        },
+        {
+          "author_name": "Jakub Žáček",
+          "author_url": "https://www.google.com/maps/contrib/107532133580044533923/reviews",
+          "profile_photo_url": "https://lh3.googleusercontent.com/a/ACg8ocK7RWTvbQfsikD7P7MCDr2RQQnRATAO25x1DAxm04fBweCOgQ=s128-c0x00000000-cc-rp-mo",
+          "rating": 5,
+          "text": "Great food and nice environment",
+          "time": 1772987981
         }
       ]
     },
@@ -251,34 +283,42 @@
         "lat": 50.08541,
         "lng": 14.47008
       },
-      "rating": 4.1,
-      "user_ratings_total": 28,
+      "rating": 4.2,
+      "user_ratings_total": 39,
       "formatted_address": "J. Želivského 1926/7, 130 00 Praha 3-Žižkov, Czechia",
       "formatted_phone_number": "770 632 251",
       "reviews": [
         {
-          "author_name": "Алихан Жумабаев (JJBA)",
-          "author_url": "https://www.google.com/maps/contrib/105249051510037040496/reviews",
-          "profile_photo_url": "https://lh3.googleusercontent.com/a-/ALV-UjWIzY1KXn1uG3Yb2_LjdIClleW7W85SzgD2gMOkP5KWwWjmR6UR=s128-c0x00000000-cc-rp-mo",
+          "author_name": "Jonas Stoilov",
+          "author_url": "https://www.google.com/maps/contrib/106022880661432401951/reviews",
+          "profile_photo_url": "https://lh3.googleusercontent.com/a/ACg8ocJ8slYvS_AjUTJo-Z_SrlANr54A_VaUYU6QuHfp2YDQuYZ5IQ=s128-c0x00000000-cc-rp-mo",
           "rating": 5,
-          "text": "The best employees of this restaurant, top notch💪",
-          "time": 1772056082
+          "text": "Very good hallumi dürüm, always a large portion and great guacamole sauce. I appreciate that they have a selection for vegetarians. I recommend it if you are looking for something quick and tasty. A little more expensive (160 CZK), but definitely worth it",
+          "time": 1772834161
         },
         {
-          "author_name": "Арсений Белогородский",
-          "author_url": "https://www.google.com/maps/contrib/105330173494231163568/reviews",
-          "profile_photo_url": "https://lh3.googleusercontent.com/a/ACg8ocLtuj8ZSJ7N84iUiV64GEVzRmYU2gYtU_Bfq3dUXt2fSoSDrw=s128-c0x00000000-cc-rp-mo",
+          "author_name": "Mihail Kulikov",
+          "author_url": "https://www.google.com/maps/contrib/116002485345745442082/reviews",
+          "profile_photo_url": "https://lh3.googleusercontent.com/a/ACg8ocKu57Z3S-GYW3n4vry24KJiMy5GDNE55_HtPIy6Z2YCq7m5TQ=s128-c0x00000000-cc-rp-mo",
           "rating": 5,
-          "text": "The döner here is fantastic; people don't want meat; I always get it with spicy and belinka sauce.\nWe also recently got pizza – also delicious.\nHighly recommended!",
-          "time": 1771959885
+          "text": "Great meat bowl!",
+          "time": 1772824764
         },
         {
-          "author_name": "zee johnz",
-          "author_url": "https://www.google.com/maps/contrib/109416857693813783601/reviews",
-          "profile_photo_url": "https://lh3.googleusercontent.com/a/ACg8ocIJX7a62HGpSE1azES5YvqqSwaVkEy1UIOZTqwJSFSo0myyzg=s128-c0x00000000-cc-rp-mo",
+          "author_name": "Alex Solodiuc",
+          "author_url": "https://www.google.com/maps/contrib/115253237863961313265/reviews",
+          "profile_photo_url": "https://lh3.googleusercontent.com/a/ACg8ocIWLzVuanbzdksucxaF1j8Y1rlnl4Iwe7wq6mz7yZQxHK56BA=s128-c0x00000000-cc-rp-mo",
           "rating": 5,
-          "text": "Very pleasant place",
-          "time": 1771942466
+          "text": "Excellent kebab! I live a short distance from here, so I come here quite often. Everything is always fresh - vegetables are crispy, meat is juicy and perfectly seasoned. Really very tasty. I recommend 👍🏼",
+          "time": 1772812453
+        },
+        {
+          "author_name": "Ekaterina Lysenko",
+          "author_url": "https://www.google.com/maps/contrib/106718267648825500768/reviews",
+          "profile_photo_url": "https://lh3.googleusercontent.com/a/ACg8ocKCiLfXdzwsdOsOTtWcNkHaH3jTEB_NnBoCgg-VxKOMs3-AwQ=s128-c0x00000000-cc-rp-mo",
+          "rating": 5,
+          "text": "The food was really very tasty. I liked the cheese pizza the most🥹 The box was also delicious, the portion was big enough and everything was fresh. I definitely recommend it!🙏",
+          "time": 1772812178
         }
       ]
     },
@@ -296,12 +336,12 @@
       "formatted_phone_number": "773 345 377",
       "reviews": [
         {
-          "author_name": "Ondra Liška",
-          "author_url": "https://www.google.com/maps/contrib/116742852661428286756/reviews",
-          "profile_photo_url": "https://lh3.googleusercontent.com/a-/ALV-UjVRRrZiddH4GBDlWZ9G0Y4PqubAB3HVAduQEqZbvoMYQiShPiib=s128-c0x00000000-cc-rp-mo-ba4",
-          "rating": 4,
-          "text": "Tasty kebab, slightly above average.",
-          "time": 1770726314
+          "author_name": "terminator",
+          "author_url": "https://www.google.com/maps/contrib/102071353899823261724/reviews",
+          "profile_photo_url": "https://lh3.googleusercontent.com/a/ACg8ocKPFhGnw-sZxN3PFnsgzyhPj8WN3vFyvqsw4WHpaktJ4sUKLg=s128-c0x00000000-cc-rp-mo",
+          "rating": 5,
+          "text": "The best pizza in Prague, the most delicious",
+          "time": 1770842906
         }
       ]
     },
@@ -313,8 +353,8 @@
         "lat": 50.04871,
         "lng": 14.35535
       },
-      "rating": 4.5,
-      "user_ratings_total": 234,
+      "rating": 4.4,
+      "user_ratings_total": 236,
       "formatted_address": "Radlická 520/117, 158 00 Praha 5-Jinonice, Czechia",
       "formatted_phone_number": "773 144 377",
       "reviews": [
@@ -333,14 +373,6 @@
           "rating": 4,
           "text": "The best kebab in town — we’ve been coming here with colleagues every Tuesday for years, and it’s become a cherished ritual.\nRecently, however, we’ve noticed the kebabs have become noticeably smaller, despite a slight price increase. It’s hard not to notice, compared to what we’ve grown used to over the years.\nDear Don’s, please bring back the glory days of the truly monstrous kebabs. Your long-time, loyal customers would greatly appreciate it.",
           "time": 1771316360
-        },
-        {
-          "author_name": "Vít Anton",
-          "author_url": "https://www.google.com/maps/contrib/109912798585119459901/reviews",
-          "profile_photo_url": "https://lh3.googleusercontent.com/a/ACg8ocKxfyk7fGUnXMwwlKGvf2RYaDK4wgTOjS6uv_J-CO6u5UjeAw=s128-c0x00000000-cc-rp-mo",
-          "rating": 5,
-          "text": "They have really good stuff! Different than anywhere else, I recommend it.",
-          "time": 1770719541
         }
       ]
     }
