@@ -473,4 +473,5 @@ if (document.readyState === "loading") {
 } else {
   initCsvMenuPage();
   initSidebarToggle();
+  initMenuDetailsToggle();
 }
