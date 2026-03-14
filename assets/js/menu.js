@@ -177,6 +177,7 @@ class CsvMenuPage {
         if (this.activeCategory === category) {
           return;
         }
+        this.itemsGridEl.classList.remove("is-loaded");
         this.activeCategory = category;
         this.renderCategories();
         this.renderItems();
@@ -203,6 +204,8 @@ class CsvMenuPage {
     categoryItems.forEach((item) => {
       this.itemsGridEl.appendChild(this.createMealCard(item));
     });
+    this.itemsGridEl.classList.add("is-loaded");
+    initMenuDetailsToggle();
   }
 
   createMealCard(item) {
@@ -273,7 +276,7 @@ const createMenuMediaElement = (item) => {
     return mediaWrap
 };
 
-const createMoreDetailsElement = (item) => {
+const createMoreDetailsElement = () => {
   const details = document.createElement("div");
   details.className = "menu-csv-more-details";
   details.innerHTML = `<div class="card-details">
@@ -282,26 +285,46 @@ const createMoreDetailsElement = (item) => {
       </p>
       <hr class="menu-devider"/>
       <div class="allergens">
-        <span class="allergen contains"><icon><icon/>🌾 Gluten</span>
+        <span class="allergen green"><icon><icon/>🌾 Gluten</span>
         <span class="allergen green">🥛 Dairy</span>
-        <span class="allergen warning">🌰 Sesame</span>
+        <span class="allergen green">🌰 Sesame</span>
       </div>
       <hr class="menu-devider"/>
-      <div class="nutrition">
-        <div class="nutrition-row">
-          <span>Protein:</span>
-          <div class="bar high"></div>
+      <div class="nutrition-stats">
+      <!-- Protein Section -->
+      <div class="stat-row protein">
+        <div class="stat-info">
+          <span>Protein</span>
+          <span>85%</span>
         </div>
-        <div class="nutrition-row">
-          <span>Calories:</span>
-          <div class="bar medium"></div>
-        </div>
-        <div class="nutrition-row">
-          <span>Fat:</span>
-          <div class="bar medium"></div>
+        <div class="progress-track">
+          <div class="progress-fill" style="width: 85%;"></div>
         </div>
       </div>
-    </div>`;
+
+      <!-- Calories Section -->
+      <div class="stat-row calories">
+        <div class="stat-info">
+          <span>Calories</span>
+          <span>1,850 kcal</span>
+        </div>
+        <div class="progress-track">
+          <div class="progress-fill" style="width: 60%;"></div>
+        </div>
+      </div>
+
+      <!-- Fat Section -->
+      <div class="stat-row fat">
+        <div class="stat-info">
+          <span>Fat</span>
+          <span>42g</span>
+        </div>
+        <div class="progress-track">
+          <div class="progress-fill" style="width: 40%;"></div>
+        </div>
+      </div>
+    </div>
+  </div>`;
   return details;
 }
 

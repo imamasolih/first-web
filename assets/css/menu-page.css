@@ -89,8 +89,6 @@ body {
   border: 0;
   background: transparent;
   color: var(--charcoal);
-  font-size: clamp(14px, 1.2vw, 18px);
-  line-height: 1;
   letter-spacing: 0.03em;
   text-align: left;
   padding: 8px 10px;
@@ -160,7 +158,7 @@ body {
   font-size: clamp(19px, 2.4vw, 31px);
   line-height: 1;
   letter-spacing: 0.02em;
-  /* color: var(--gold); */
+  color: #282d2f;
 }
 
 .menu-page-state {
@@ -194,6 +192,12 @@ body {
   justify-content: center;
   margin-top: 1rem;
   margin-bottom: 6rem;
+  opacity: 0;
+}
+
+.menu-items-grid.is-loaded {
+  opacity: 1;
+  transition: opacity 0.5s ease-in-out; /* Smooth transition over 0.3 seconds */
 }
 
 .menu-csv-card {
@@ -264,7 +268,7 @@ body {
 }
 
 .menu-devider {
-  color: #dddddd;
+  color:  rgb(253 241 202);
   border-top: 1px solid;
 }
 .menu-sidebar-toggle-mobile {
@@ -492,46 +496,96 @@ body {
 }
 
 .allergen {
-  display: inline-block;
-  padding: 6px 12px;
-  border-radius: 20px;
-  font-size: 12px;
-  margin-right: 8px;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px; /* Space between icon and label */
+  padding: 6px 14px;
+  border-radius: 100px; /* Fully rounded "pill" shape */
+  border: 0.5px solid;
+  /* 3. Typography */
+  font-family: 'Inter', sans-serif;
+  font-size: 14px;
+  font-weight: 1000;
+  letter-spacing: -0.01em;
+  
+  /* 4. Interaction */
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
 }
 
-.contains { background: #67729d; color: white; font-weight: bolder; }
-.warning { background: #8b8948; color: white; font-weight: bolder; }
-.green { background: #628e8a; color: white; font-weight: bolder; }
-
-.nutrition-row {
-  margin: 10px 0;
+.contains {
+  background-color: #f3ebff;
+  color: #89878c; /* #7d33ff; */
+  border-color: rgba(125, 51, 255, 0.2); /* 20% opacity of text color */
+}
+.warning {
+  background-color: #ecfdf5;
+  color: #622107; /* #10b981 */
+  border-color: rgba(16, 185, 129, 0.2);
+}
+.green {
+  background-color: #fffbeb;
+  color: #f59e0b;
+  border-color: rgba(245, 158, 11, 0.2);
 }
 
-.bar {
-  height: 6px;
-  border-radius: 6px;
-  background: #ddd;
-  margin-top: 4px;
+/* Container for the whole section */
+.nutrition-stats {
+  background: white;
+  padding: 20px;
+  border-radius: 16px;
+  border: 1px solid rgb(253 241 202);;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  max-width: 400px;
+}
+
+/* Individual Bar Wrapper */
+.stat-row {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+/* Label & Value Layout */
+.stat-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: 'Inter', sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+/* The Progress Track (Background) */
+.progress-track {
+  height: 10px;
+  width: 100%;
+  border-radius: 100px;
   position: relative;
+  overflow: hidden; /* Clips the inner bar */
 }
 
-.bar.high::after {
-  content: "";
-  position: absolute;
-  width: 90%;
+/* The Progress Bar (Fill) */
+.progress-fill {
   height: 100%;
-  background: #1f8037;
-  border-radius: 6px;
+  border-radius: 100px;
+  transition: width 0.5s ease-out; /* Smooth growth animation */
 }
 
-.bar.medium::after {
-  content: "";
-  position: absolute;
-  width: 60%;
-  height: 100%;
-  background: #ffb347;
-  border-radius: 6px;
-}
+/* Applying your Specific Color Palette */
+.protein .progress-track { background-color: #f3ebff; }
+.protein .progress-fill  { background-color: #ff0a0ab8; }
+.protein .stat-info     { color: #fc445b; }
+
+.calories .progress-track { background-color: #fffbeb; }
+.calories .progress-fill  { background-color: #f59e0b; }
+.calories .stat-info     { color: #f59e0b; }
+
+.fat .progress-track { background-color: #ecfdf5; }
+.fat .progress-fill  { background-color: #10b981; }
+.fat .stat-info     { color: #10b981; }
 
 .dots {
   position: absolute;
@@ -577,4 +631,64 @@ body {
   font-weight: 400;
   color: #2f3a33;
   letter-spacing: 0.02em;
+}
+
+.full-desc {
+  color: var(--muted);
+}
+
+.delivery-partners {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.delivery-title {
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+}
+
+.partner-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 12px;
+}
+
+.partner-link {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  padding: 8px;
+  border-radius: 12px;
+  border: 1px solid #e2e8f0;
+  text-decoration: none;
+  transition: all 0.2s ease;
+}
+
+/* Consolidating disparate colors into one clean look */
+.partner-icon {
+  height: 24px; /* Consistent height for balance */
+  width: auto;
+  filter: grayscale(100%) brightness(0.4); /* Matches your description text color */
+  opacity: 0.7;
+}
+
+.partner-label {
+  color: #374151; /* Dark Slate Gray for description text */
+  font-size: 12px;
+  font-weight: 600;
+}
+
+/* Interactive Hover: Re-introduces color on focus */
+.partner-link:hover {
+  border-color: #fdf1ca;
+  background-color: #ffffff;
+}
+
+.partner-link:hover .partner-icon {
+  filter: grayscale(0%) brightness(1); /* Reveals original brand color */
+  opacity: 1;
 }
