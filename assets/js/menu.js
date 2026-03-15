@@ -181,6 +181,7 @@ class CsvMenuPage {
         this.activeCategory = category;
         this.renderCategories();
         this.renderItems();
+        initMenuDetailsToggle();
       });
 
       this.categoryListEl.appendChild(button);
@@ -205,7 +206,6 @@ class CsvMenuPage {
       this.itemsGridEl.appendChild(this.createMealCard(item));
     });
     this.itemsGridEl.classList.add("is-loaded");
-    initMenuDetailsToggle();
   }
 
   createMealCard(item) {
@@ -340,6 +340,7 @@ const createMenuDescriptionElement = (item) => {
   return description;
 }
 
+// Creates the menu item name element, including a "We Recommend" badge if applicable
 const createMenuNameElement = (item) => {
    const name = document.createElement("h4");
     const nameDiv = document.createElement("div");
@@ -362,6 +363,7 @@ const createMenuNameElement = (item) => {
     return name;
 }
 
+// Initialization logic to set up the menu page and sidebar toggle functionality
 const initCsvMenuPage = () => {
   const app = new CsvMenuPage({
     csvUrl: "assets/data/menu.csv",
@@ -372,8 +374,10 @@ const initCsvMenuPage = () => {
   });
 
   app.init();
+  initMenuDetailsToggle();
 };
 
+// Sidebar toggle logic with backdrop and click-outside-to-close functionality
 const initSidebarToggle = () => {
   const sidebar = document.getElementById("menu-sidebar");
   const toggleBtn = document.getElementById("menu-sidebar-toggle");
@@ -460,7 +464,6 @@ const initMenuDetailsToggle = function () {
       dots[0].classList.toggle('active', !isActive);
       dots[1].classList.toggle('active', isActive);
     });
-
   });
 };
 
@@ -473,5 +476,4 @@ if (document.readyState === "loading") {
 } else {
   initCsvMenuPage();
   initSidebarToggle();
-  initMenuDetailsToggle();
 }
