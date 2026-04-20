@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-13T05:48:20.820Z",
+  "generatedAt": "2026-04-20T05:47:40.824Z",
   "refreshIntervalDays": 7,
   "locations": [
     {
@@ -11,7 +11,7 @@
         "lng": 14.43262
       },
       "rating": 4.4,
-      "user_ratings_total": 304,
+      "user_ratings_total": 307,
       "formatted_address": "M. Horákové 831/3, 170 00 Praha 7-Holešovice, Czechia",
       "formatted_phone_number": "773 903 377",
       "reviews": [
@@ -20,16 +20,8 @@
           "author_url": "https://www.google.com/maps/contrib/114406987146497356618/reviews",
           "profile_photo_url": "https://lh3.googleusercontent.com/a-/ALV-UjUvcC0akrJOOeRKxPUhzDdWU24uXR3SBHVO9hV5XW37QkhiEXkQ=s128-c0x00000000-cc-rp-mo",
           "rating": 5,
-          "text": "Jeden z nejlepších kebabů v Praze 👌",
+          "text": "One of the best kebabs in Prague 👌",
           "time": 1776015454
-        },
-        {
-          "author_name": "Bananchik Rmd",
-          "author_url": "https://www.google.com/maps/contrib/106090845765222068142/reviews",
-          "profile_photo_url": "https://lh3.googleusercontent.com/a-/ALV-UjVAP-N0-UTM30bEzAVHVfGU_-PhXBhK-lk5kNmgHPwnhYjSCsjQ=s128-c0x00000000-cc-rp-mo",
-          "rating": 5,
-          "text": "We were there yesterday at 3am and a very nice guy served us. It was very tasty, large portions and lots of meat. I recommend it to everyone!",
-          "time": 1774790411
         }
       ]
     },
@@ -42,7 +34,7 @@
         "lng": 14.47037
       },
       "rating": 4.4,
-      "user_ratings_total": 588,
+      "user_ratings_total": 589,
       "formatted_address": "Vršovická 71, 100 00 Praha 10-Vršovice, Czechia",
       "formatted_phone_number": "773 001 377",
       "reviews": [
@@ -51,7 +43,7 @@
           "author_url": "https://www.google.com/maps/contrib/102189554531183096023/reviews",
           "profile_photo_url": "https://lh3.googleusercontent.com/a/ACg8ocIAlHCLB-JnyEukhvzKYSz30Mzordw-bDw3vXXIyrnOG3NdDA=s128-c0x00000000-cc-rp-mo",
           "rating": 5,
-          "text": "Skvělé místo. Výborná zelená na v kebabu",
+          "text": "Great place. Excellent green kebab.",
           "time": 1776014180
         }
       ]
@@ -78,14 +70,6 @@
           "time": 1775665421
         },
         {
-          "author_name": "Harun Sariyar",
-          "author_url": "https://www.google.com/maps/contrib/117578834687496382464/reviews",
-          "profile_photo_url": "https://lh3.googleusercontent.com/a-/ALV-UjXAZeprYX9xDONnVsGohep6UODHIxE6XxmyoEmIEwPNDoDj8Ib2og=s128-c0x00000000-cc-rp-mo",
-          "rating": 5,
-          "text": "Best pizzas in the praha 👌👌",
-          "time": 1774828084
-        },
-        {
           "author_name": "Sergey Makarov",
           "author_url": "https://www.google.com/maps/contrib/106423810231502006188/reviews",
           "profile_photo_url": "https://lh3.googleusercontent.com/a-/ALV-UjUfznaWZpcdHqhxzNFytyIdOcc-0qRzbHSObkSkeWIeEHU6tG9L=s128-c0x00000000-cc-rp-mo",
@@ -103,11 +87,19 @@
         "lat": 50.08443,
         "lng": 14.45162
       },
-      "rating": 4.3,
-      "user_ratings_total": 39,
+      "rating": 4.2,
+      "user_ratings_total": 41,
       "formatted_address": "J. Želivského 1926/7, 130 00 Praha 3-Žižkov, Czechia",
-      "formatted_phone_number": "770 632 251",
+      "formatted_phone_number": "773 017 377",
       "reviews": [
+        {
+          "author_name": "Svetulik chubenko",
+          "author_url": "https://www.google.com/maps/contrib/104608651361580079269/reviews",
+          "profile_photo_url": "https://lh3.googleusercontent.com/a/ACg8ocJhaeJoYZp3vb9FpmUYcNuI8w248FOLUEzPv80rEx2p6BIeKw=s128-c0x00000000-cc-rp-mo",
+          "rating": 5,
+          "text": "A very sweet Armenian girl 😇, made me a pizza quickly and efficiently, I recommend her!🍀🤗",
+          "time": 1776515819
+        },
         {
           "author_name": "khoji sevi",
           "author_url": "https://www.google.com/maps/contrib/105622540081566385633/reviews",
@@ -123,14 +115,6 @@
           "rating": 5,
           "text": "Great pizza and smiling staff, nice environment and clean",
           "time": 1774538055
-        },
-        {
-          "author_name": "Vít Tošovský",
-          "author_url": "https://www.google.com/maps/contrib/109743687631063188484/reviews",
-          "profile_photo_url": "https://lh3.googleusercontent.com/a/ACg8ocJvmYloSGliSWrEz_Tzpth6dIeXmWscQFiFCZV7OHBYrN4yPA=s128-c0x00000000-cc-rp-mo-ba4",
-          "rating": 5,
-          "text": "Clean, the owner is very nice, the food is very good, the garlic sauce is superb. If you get hungry after visiting Aero, definitely try it.",
-          "time": 1773765562
         }
       ]
     },
@@ -190,33 +174,17 @@
         "lng": 14.40873
       },
       "rating": 4.5,
-      "user_ratings_total": 447,
+      "user_ratings_total": 453,
       "formatted_address": "Nádražní 279/1, 150 00 Praha 5-Smíchov, Czechia",
       "formatted_phone_number": "737 837 162",
       "reviews": [
         {
-          "author_name": "maGi",
-          "author_url": "https://www.google.com/maps/contrib/103053018032691332888/reviews",
-          "profile_photo_url": "https://lh3.googleusercontent.com/a-/ALV-UjXuyjT4MFVua5txj82Y_fgEe_jFl_TPDpr-FUwFPknh962ozkuV=s128-c0x00000000-cc-rp-mo",
+          "author_name": "Elizaveta Mukhortova",
+          "author_url": "https://www.google.com/maps/contrib/113165858799921946625/reviews",
+          "profile_photo_url": "https://lh3.googleusercontent.com/a-/ALV-UjXqM0Kr21hfRGAWXMRtX3o_LXwUAxjZfblsYOjvWMI12RuxtgE=s128-c0x00000000-cc-rp-mo",
           "rating": 5,
-          "text": "For me the best kebab in Prague",
-          "time": 1775905558
-        },
-        {
-          "author_name": "Frankie",
-          "author_url": "https://www.google.com/maps/contrib/101976972603253315503/reviews",
-          "profile_photo_url": "https://lh3.googleusercontent.com/a/ACg8ocKZ6KPvkcUEUQ26hKdg7rs92YtjO4XVjUTkP5VEDLoYp1Vosw=s128-c0x00000000-cc-rp-mo-ba2",
-          "rating": 5,
-          "text": "🤤feet",
-          "time": 1775735092
-        },
-        {
-          "author_name": "m3tjunadruhou",
-          "author_url": "https://www.google.com/maps/contrib/114194325088713515682/reviews",
-          "profile_photo_url": "https://lh3.googleusercontent.com/a/ACg8ocKmUHF5-rN1Mf64-EziecW9giIb9l1vN5sGXPLqWXa1NH8WQO_D=s128-c0x00000000-cc-rp-mo",
-          "rating": 5,
-          "text": "Best kebab ever in office",
-          "time": 1775076001
+          "text": "So tasty and juicy, a lot of meat, not too salty, just perfect, highly reccommend:)",
+          "time": 1776238446
         }
       ]
     },
@@ -229,41 +197,33 @@
         "lng": 14.44342
       },
       "rating": 4.5,
-      "user_ratings_total": 173,
+      "user_ratings_total": 182,
       "formatted_address": "Nuselská 171/15, 140 00 Praha 4-Nusle, Czechia",
       "formatted_phone_number": "775 660 045",
       "reviews": [
         {
-          "author_name": "Kirill Voit",
-          "author_url": "https://www.google.com/maps/contrib/101684263098010878288/reviews",
-          "profile_photo_url": "https://lh3.googleusercontent.com/a-/ALV-UjX-LGbjJxrdIhKsNupOhprS_GniMKEvlPx5BFlqtQteilkt0HM=s128-c0x00000000-cc-rp-mo",
+          "author_name": "Bilol Khasanov",
+          "author_url": "https://www.google.com/maps/contrib/106521896192521592240/reviews",
+          "profile_photo_url": "https://lh3.googleusercontent.com/a/ACg8ocIU46ZlJdGuUwnCReBp5P4x_ew7A9u8vPCSY4mgO2Ohp4yxcQ=s128-c0x00000000-cc-rp-mo",
           "rating": 5,
-          "text": "Buy everything, everything is delicious 🥹💗",
-          "time": 1776026731
+          "text": "I liked it very much. I came as a tourist and I really enjoyed it. The pizza and mojito were very good. The staff were polite and welcoming.",
+          "time": 1776550550
         },
         {
-          "author_name": "Ivan Chugunkin",
-          "author_url": "https://www.google.com/maps/contrib/110132344478905308423/reviews",
-          "profile_photo_url": "https://lh3.googleusercontent.com/a/ACg8ocKPaOOrsPlWfOX8xmOodEx5pRanlIAzjCvx9KLf4fIaMUHqx-g=s128-c0x00000000-cc-rp-mo",
+          "author_name": "Biloliddin Khasanov",
+          "author_url": "https://www.google.com/maps/contrib/101754586408382477588/reviews",
+          "profile_photo_url": "https://lh3.googleusercontent.com/a-/ALV-UjWwkp-HWS1Ell0-Ee72HU4yEsVo8EzTDDpoDb7owunpwtiRYTD6=s128-c0x00000000-cc-rp-mo",
           "rating": 5,
-          "text": "Everything was very nice, super friendly staff and perfect food",
-          "time": 1776025347
+          "text": "I liked it very much. I came as a tourist and I really enjoyed it. The pizza and mojito were very good. The staff were polite and welcoming.",
+          "time": 1776550359
         },
         {
-          "author_name": "And Rei",
-          "author_url": "https://www.google.com/maps/contrib/116984874867880056278/reviews",
-          "profile_photo_url": "https://lh3.googleusercontent.com/a/ACg8ocKRt6tB1iyNz-hSVLxF_F58q4EA2usIFynSfjXs3ok68mHtKA=s128-c0x00000000-cc-rp-mo",
+          "author_name": "Gg god",
+          "author_url": "https://www.google.com/maps/contrib/101966395065061054044/reviews",
+          "profile_photo_url": "https://lh3.googleusercontent.com/a-/ALV-UjWpIXiuX5FI3wru1wzk3iWtChBez90HwUmksJi4imqEo6t6EdU=s128-c0x00000000-cc-rp-mo",
           "rating": 5,
-          "text": "Good kebab",
-          "time": 1775996061
-        },
-        {
-          "author_name": "Дмитро Загородній",
-          "author_url": "https://www.google.com/maps/contrib/117982273550738282381/reviews",
-          "profile_photo_url": "https://lh3.googleusercontent.com/a/ACg8ocIA8fTgxdeLPN00xyRJuSJFV1EUCz7LnkbfxkfFEHpOmLkvYq4=s128-c0x00000000-cc-rp-mo",
-          "rating": 5,
-          "text": "Suppi, Jahongir is cool",
-          "time": 1775992912
+          "text": "Good food",
+          "time": 1776549677
         }
       ]
     },
@@ -275,11 +235,19 @@
         "lat": 50.08541,
         "lng": 14.47008
       },
-      "rating": 4.3,
-      "user_ratings_total": 39,
+      "rating": 4.2,
+      "user_ratings_total": 41,
       "formatted_address": "J. Želivského 1926/7, 130 00 Praha 3-Žižkov, Czechia",
-      "formatted_phone_number": "770 632 251",
+      "formatted_phone_number": "773 017 377",
       "reviews": [
+        {
+          "author_name": "Svetulik chubenko",
+          "author_url": "https://www.google.com/maps/contrib/104608651361580079269/reviews",
+          "profile_photo_url": "https://lh3.googleusercontent.com/a/ACg8ocJhaeJoYZp3vb9FpmUYcNuI8w248FOLUEzPv80rEx2p6BIeKw=s128-c0x00000000-cc-rp-mo",
+          "rating": 5,
+          "text": "A very sweet Armenian girl 😇, made me a pizza quickly and efficiently, I recommend her!🍀🤗",
+          "time": 1776515819
+        },
         {
           "author_name": "khoji sevi",
           "author_url": "https://www.google.com/maps/contrib/105622540081566385633/reviews",
@@ -295,14 +263,6 @@
           "rating": 5,
           "text": "Great pizza and smiling staff, nice environment and clean",
           "time": 1774538055
-        },
-        {
-          "author_name": "Vít Tošovský",
-          "author_url": "https://www.google.com/maps/contrib/109743687631063188484/reviews",
-          "profile_photo_url": "https://lh3.googleusercontent.com/a/ACg8ocJvmYloSGliSWrEz_Tzpth6dIeXmWscQFiFCZV7OHBYrN4yPA=s128-c0x00000000-cc-rp-mo-ba4",
-          "rating": 5,
-          "text": "Clean, the owner is very nice, the food is very good, the garlic sauce is superb. If you get hungry after visiting Aero, definitely try it.",
-          "time": 1773765562
         }
       ]
     },
@@ -314,8 +274,8 @@
         "lat": 50.08782,
         "lng": 14.34443
       },
-      "rating": 4.4,
-      "user_ratings_total": 80,
+      "rating": 4.3,
+      "user_ratings_total": 81,
       "formatted_address": "Brunclíkova 1945/28, 162 00 Praha 6-Břevnov, Czechia",
       "formatted_phone_number": "773 345 377",
       "reviews": [
@@ -338,7 +298,7 @@
         "lng": 14.35535
       },
       "rating": 4.4,
-      "user_ratings_total": 243,
+      "user_ratings_total": 245,
       "formatted_address": "Radlická 520/117, 158 00 Praha 5-Jinonice, Czechia",
       "formatted_phone_number": "773 144 377",
       "reviews": [
@@ -357,14 +317,6 @@
           "rating": 5,
           "text": "I really liked the way the chef communicates, the food is very tasty and pleasant, I recommend it to everyone, I especially want to thank the kind chef named Ҳиҷрон for his responsiveness and good work",
           "time": 1774534472
-        },
-        {
-          "author_name": "Alexander Kotelevsky",
-          "author_url": "https://www.google.com/maps/contrib/100221840298976242962/reviews",
-          "profile_photo_url": "https://lh3.googleusercontent.com/a-/ALV-UjVON6KCd0tAdfTxND0ib4dCsSWGI3K2jFW33znwlv0TZ2vHDeIOkA=s128-c0x00000000-cc-rp-mo-ba3",
-          "rating": 5,
-          "text": "Excellent place and environment. Very tasty. Thank you.",
-          "time": 1774348339
         }
       ]
     }
